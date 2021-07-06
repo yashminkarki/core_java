@@ -3,7 +3,7 @@ package selection.statement;
 public class SwitchCase {
 
 	public static void main(String[] args) {
-		String str = "chd";
+		String str = "chdn";
 		switch(str) 
 		{
 		default:

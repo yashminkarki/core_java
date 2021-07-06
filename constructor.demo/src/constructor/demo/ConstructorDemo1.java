@@ -18,6 +18,26 @@ public class ConstructorDemo1 {
 		 name = q;
 		 color = c;
 		}
+
+	// ,isis,ssii,iis
+	
+	public ConstructorDemo1(String s, int a, String t, int b) {
+		name = s;
+		tail = a;
+		color = t;
+		eyes = b; 
+		
+	}
+	
+	public ConstructorDemo1(String s, int a, int b, String t) {
+		name = s;
+		tail = a;
+		eyes = b;
+		color = t; 
+		
+	}
+	
+	
 	public void run() {
 		System.out.println("Dog is running");
 	}
@@ -51,8 +71,20 @@ public class ConstructorDemo1 {
 		d3.run();
 		d3.print();
 		
+		System.out.println("--------------------------------");
+		ConstructorDemo1 d4 = new ConstructorDemo1("Tommy", 1, "blue", 2);
+		System.out.println(d4.name);
+		System.out.println(d4.tail);
+		System.out.println(d4.color);
+		System.out.println(d4.eyes);
 		
+		System.out.println("----------------------------------");
 		
+		ConstructorDemo1 d5 = new ConstructorDemo1("Jen", 1, "light brown", 1);
+		System.out.println(d5.name);
+		System.out.println(d5.tail);
+		System.out.println(d5.color);
+		System.out.println(d5.eyes);
 		
 		
 	

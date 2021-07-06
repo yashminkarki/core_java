@@ -1,18 +1,20 @@
 package jump.statement;
 
-public class BreakInWhile {
+public class BreakInDoWhile {
 
 	public static void main(String[] args) {
 		int i = 1;
-		while(i <=10) {
+		
+		do {
 			if (i == 3) {
 				i++;
 				break;
 			}
-			System.out.println("Value of i is " +i);
-			i++;
-		}
-	
+		System.out.println("Print the value of I " + i);
+		
+		i++;
+		}while(i<=10);
+
 	}
 
 }
